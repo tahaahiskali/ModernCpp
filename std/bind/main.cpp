@@ -13,8 +13,8 @@ int main() {
     boundFunction(); // this will print "Hello, World!"
 
     // create a new function object by binding the first argument of printString to a new string
-    boundFunction = std::bind(printString, "Goodbye, World!");
-    boundFunction(); // this will print "Goodbye, World!"
+    std::function < void () > boundFunction1 = std::bind(printString, "Goodbye, World!");
+    boundFunction1(); // this will print "Goodbye, World!"
 
     return 0;
 }
