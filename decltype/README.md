@@ -1,0 +1,1 @@
+**decltype** is a keyword in C++ used to determine the type of an expression. It can be used to deduce the type of an expression at compile time and can be used in a variety of contexts, including declaring variables, return types of functions, and type arguments for templates. It is useful for writing type-safe and expressive code.
